@@ -1,0 +1,40 @@
+@import "~styles/rc-pagination.scss";
+
+.list {
+  height: 100%;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 4px 4px 16px 0px rgba(34, 60, 80, 0.06);
+
+  &-head {
+    form {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      button {
+        padding: 10px 34px;
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        background-color: #0074d9;
+        border: 1px solid transparent;
+        cursor: pointer;
+        box-sizing: border-box;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+
+        &:focus {
+          border: 1px solid #5fa8fb;
+        }
+      }
+    }
+  }
+
+  &-content {
+    padding-top: 30px;
+  }
+}
